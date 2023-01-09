@@ -15,7 +15,7 @@ public sealed class TwoSum1 : IProblem
         Execute(new [ ] { 3, 2, 3}, 6);
     }
 
-    public void Execute(int[] nums, int target)
+    private void Execute(int[] nums, int target)
     {
         var result = TwoSum(nums, target);
 
